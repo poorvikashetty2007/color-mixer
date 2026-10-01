@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Mixer Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Color Mixer Challenge</h1>
+  <p>Round <span id="round">1</span>/5 | Score: <span id="score">0</span></p>
+  <div class="boxes">
+    <div><div id="target" class="box"></div><p>Target</p></div>
+    <div><div id="mine" class="box"></div><p>Yours</p></div>
+  </div>
+  <label>Red <input type="range" id="r" min="0" max="255" value="128"></label>
+  <label>Green <input type="range" id="g" min="0" max="255" value="128"></label>
+  <label>Blue <input type="range" id="b" min="0" max="255" value="128"></label>
+  <button id="check">Check</button>
+  <p id="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
